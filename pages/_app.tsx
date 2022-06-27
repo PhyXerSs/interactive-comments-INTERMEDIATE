@@ -8,7 +8,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         <div className="w-full h-full min-h-screen bg-[#f5f6fa]">
           <Component {...pageProps} />
         </div>
-        
       </AppProvider>
     );
 }
