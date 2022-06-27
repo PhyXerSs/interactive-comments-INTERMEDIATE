@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import AppProvider from '../provider/AppProvider';
-import ConfirmDeleteModal from '../components/confirmDeleteModal';
+
 function MyApp({ Component, pageProps }: AppProps) {
   return (
       <AppProvider>
