@@ -104,7 +104,7 @@ function CreateAccount() {
                     >
                         <input type="text" ref={usernameRef} className={`w-full bg-transparent outline-none rounded-lg border-[2px] ${isFocusInput  ? 'border-blue-400 z-[0]':'border-blue-100 z-[10]' } py-2 px-3 ease-linear duration-200 `}
                         />
-                        <div className={` absolute ${isFocusInput || (usernameRef.current && usernameRef.current.value !== '')  ? '-top-2  z-[10]' : 'top-3' } ${isFocusInput ? 'text-blue-500 border-x-2 border-blue-500':'text-blue-300'} left-3 bottom-0 bg-white h-4 w-[85px] ease-linear duration-50 text-center`}>
+                        <div className={` absolute ${isFocusInput || (usernameRef.current && usernameRef.current.value !== '')  ? '-top-2  z-[10]' : 'top-3' } ${isFocusInput ? 'text-blue-500 border-x-2 border-blue-500':'text-blue-300'} left-3 bottom-0 bg-white h-4 w-[85px] ease-linear duration-150 text-center`}>
                             <p className="absolute -top-1 left-[5px]">Username</p>
                         </div>
                         <button type="submit" className="w-full py-2 bg-blue-500 text-white font-semibold justify-center items-center rounded-lg hover:bg-blue-300 ease-linear duration-200">
